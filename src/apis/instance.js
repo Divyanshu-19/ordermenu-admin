@@ -2,7 +2,7 @@ import axios from 'axios';
 import { notification } from '../App';
 
 const instance = axios.create({
-  baseURL: "http://3.112.236.235:3000/api/v1",
+  baseURL: "https://0rr3s1t474.execute-api.ap-northeast-1.amazonaws.com/api/v1",
   withCredentials: true,
   headers: { 'Access-Control-Allow-Origin': '*', 'Content-Type': 'application/json' }
 })
