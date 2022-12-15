@@ -22,7 +22,7 @@ import { selectPartner } from "../store/partnerSlice"
 import { addNewOrder } from "../store/orderSlice";
 import { notification } from "../App";
 
-const socket = io('http://3.112.236.235:3000', {
+const socket = io('https://0rr3s1t474.execute-api.ap-northeast-1.amazonaws.com', {
   reconnectionDelayMax: 10000
 })
 
